@@ -1,0 +1,23 @@
+.form__label-text {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-left: 13px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+  .form__label-text {
+    font-size: 21px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 424px) {
+
+  .form__label-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
