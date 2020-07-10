@@ -1,0 +1,7 @@
+.place__web-address {
+  outline: 1px solid red;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

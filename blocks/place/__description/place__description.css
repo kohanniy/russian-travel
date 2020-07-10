@@ -1,0 +1,4 @@
+.place__description {
+  outline: 1px solid red;
+  max-width: 100%;
+}

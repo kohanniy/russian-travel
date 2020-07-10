@@ -1,0 +1,6 @@
+.place__item {
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  grid-template-rows: repaet (2, auto);
+  grid-gap: 48px 40px;
+}
