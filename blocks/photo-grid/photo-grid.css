@@ -1,0 +1,50 @@
+@import url(./__pic/photo-grid__pic.css);
+
+.photo-grid {
+  outline: 1px solid red;
+  max-width: 1184px;
+  padding-top: 92px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: auto 16px auto 16px auto;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 16px;
+  grid-auto-rows: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: auto 14px auto 14px auto 14px auto;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    padding-top: 88px;
+    -ms-grid-columns: 1fr 16px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto;
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .photo-grid {
+    max-width: 90%;
+    padding-top: 64px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto 12px auto;
+    grid-template-rows: repeat(12, auto);
+    grid-gap: 12px;
+  }
+}
