@@ -1,10 +1,15 @@
 @import url(./__title/intro__title.css);
 
+@import url(./__text/intro__text.css);
+
+@import url(./__facts/intro__facts.css);
+
+@import url(./__fact/intro__fact.css);
+
 .intro {
   outline: 1px solid red;
-  width: 690px;
+  max-width: 984px;;
   padding-top: 92px;
-  align-self: stretch;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .intro {
     width: 90%;
     padding-top: 64px;

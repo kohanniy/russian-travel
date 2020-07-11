@@ -1,0 +1,12 @@
+.intro__facts {
+  max-width: 690px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__facts {
+    width: 100%;
+  }
+}
