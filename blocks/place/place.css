@@ -1,8 +1,6 @@
-@import url(./__list/place__list.css);
+@import url(./__card/place__card.css);
 
-@import url(./__item/place__item.css);
-
-@import url(./__heading/place__heading.css);
+@import url(./__title/place__title.css);
 
 @import url(./__web-address/place__web-address.css);
 
@@ -20,7 +18,15 @@
   outline: 1px solid red;
   max-width: 984px;
   padding-top: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 
 @media screen and (max-width: 1024px) {
   .place {
@@ -30,7 +36,13 @@
 
 @media screen and (max-width: 768px;) {
   .place {
-    max-width: 720px;
+    width: calc(100% - 48px);
     padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .place {
+    width: 100%;
   }
 }

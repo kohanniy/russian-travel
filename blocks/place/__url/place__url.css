@@ -1,6 +1,7 @@
 .place__url {
   outline: 1px solid red;
   margin: 0;
+  margin-bottom: 12px;
   font-weight: normal;
   font-size: 12px;
   line-height: 1;

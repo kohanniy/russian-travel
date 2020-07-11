@@ -3,5 +3,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
-  margin: 0;
+}
+
+.place__link:hover {
+  cursor: pointer;
 }
