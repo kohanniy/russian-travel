@@ -1,20 +1,4 @@
-@import url(./__card/place__card.css);
-
-@import url(./__title/place__title.css);
-
-@import url(./__web-address/place__web-address.css);
-
-@import url(./__url/place__url.css);
-
-@import url(./__link/place__link.css);
-
-@import url(./__pic/place__pic.css);
-
-@import url(./__description/place__description.css);
-
-@import url(./__text/place__text.css);
-
-.place {
+.places {
   outline: 1px solid red;
   max-width: 984px;
   padding-top: 92px;
@@ -29,20 +13,20 @@
 
 
 @media screen and (max-width: 1024px) {
-  .place {
+  .places {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px;) {
-  .place {
+  .places {
     width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .place {
+  .places {
     width: 100%;
   }
 }

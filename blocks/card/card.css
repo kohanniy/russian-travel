@@ -1,4 +1,18 @@
-.place__card {
+@import url(./__title/card__title.css);
+
+@import url(./__web-address/card__web-address.css);
+
+@import url(./__url/card__url.css);
+
+@import url(./__link/card__link.css);
+
+@import url(./__pic/card__pic.css);
+
+@import url(./__description/card__description.css);
+
+@import url(./__text/card__text.css);
+
+.card {
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -11,12 +25,12 @@
   grid-gap: 48px 40px;
 }
 
-.place__card + .place__card {
+.card + .card {
   margin-top: 80px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__card {
+  .card {
     -ms-grid-columns: minmax(-webkit-min-content, 440px) 32px minmax(-webkit-min-content, 456px);
     -ms-grid-columns: minmax(min-content, 440px) 32px minmax(min-content, 456px);
     grid-template-columns: minmax(-webkit-min-content, 440px) minmax(-webkit-min-content, 456px);
@@ -28,7 +42,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__card {
+  .card {
     -ms-grid-columns: minmax(-webkit-min-content, 340px) 28px minmax(-webkit-min-content, 352px);
     -ms-grid-columns: minmax(min-content, 340px) 28px minmax(min-content, 352px);
     grid-template-columns: minmax(-webkit-min-content, 340px) minmax(-webkit-min-content, 352px);
@@ -38,13 +52,13 @@
     grid-gap: 48px 28px;
   }
 
-  .place__card + .place__card {
+  .card + .card {
     margin-top: 72px;
   }
 }
 
 @media screen and (max-width: 668px) {
-  .place__card {
+  .card {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -58,9 +72,7 @@
             align-items: center;
   }
 
-  .place__card + .place__card {
+  .card + .card {
     margin-top: 48px;
   }
 }
-
-

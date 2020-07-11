@@ -1,9 +1,9 @@
-.place__description {
+.card__description {
   width: 100%;
 }
 
 @media screen and (max-width: 668px) {
-  .place__description {
+  .card__description {
     width: 90%;
     margin-top: 32px;
   }

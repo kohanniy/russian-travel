@@ -1,10 +1,10 @@
-.place__link {
+.card__link {
   color: white;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
 }
 
-.place__link:hover {
+.card__link:hover {
   cursor: pointer;
 }

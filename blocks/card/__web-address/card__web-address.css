@@ -1,4 +1,4 @@
-.place__web-address {
+.card__web-address {
   outline: 1px solid red;
   max-width: 456px;
   display: -webkit-box;
@@ -14,13 +14,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__web-address {
+  .card__web-address {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 668px) {
-  .place__web-address {
+  .card__web-address {
     display: none;
   }
 }

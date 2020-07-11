@@ -1,4 +1,4 @@
-.place__text {
+.card__text {
   outline: 1px solid red;
   margin: 0;
   font-weight: normal;
@@ -6,12 +6,12 @@
   line-height: 1.67;
 }
 
-.place__text + .place__text {
+.card__text + .card__text {
   margin-top: 24px;
 }
 
 @media screen and (max-width: 768px) {
-  .place__text {
+  .card__text {
     font-size: 16px;
     line-height: 1.62;
   }

@@ -1,4 +1,4 @@
-.place__title {
+.card__title {
   outline: 1px solid red;
   width: 100%;
   margin: 0;
@@ -8,21 +8,21 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__title {
+  .card__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
 @media screen and (max-width: 668px) {
-  .place__title {
+  .card__title {
     width: 90%;
     margin-bottom: 32px;
   }
 }
 
 @media screen and (max-width: 426px) {
-  .place__title {
+  .card__title {
     font-size: 32px;
     line-height: 1.09;
   }
