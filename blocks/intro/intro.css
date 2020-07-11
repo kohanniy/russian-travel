@@ -8,13 +8,15 @@
 
 .intro {
   outline: 1px solid red;
-  max-width: 984px;;
+  max-width: 984px;
   padding-top: 92px;
+  margin-right: 295px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 928px;
+    margin-right: 240px;
   }
 }
 
@@ -22,6 +24,7 @@
   .intro {
     width: calc(100% - 48px);
     padding-top: 88px;
+    margin: 0;
   }
 }
 
