@@ -1,5 +1,5 @@
 .card__title {
-  outline: 1px solid red;
+  text-rendering: optimizeLegibility;
   width: 100%;
   margin: 0;
   font-weight: 900;

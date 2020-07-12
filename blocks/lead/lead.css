@@ -9,7 +9,6 @@
 @import url(./__pic-caption/lead__pic-caption.css);
 
 .lead {
-  outline: 1px solid red;
   max-width: 984px;
   padding-top: 56px;
   display: -webkit-box;
