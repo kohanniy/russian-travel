@@ -1,7 +1,7 @@
 .places {
   outline: 1px solid red;
   max-width: 984px;
-  padding-top: 92px;
+  padding: 92px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,12 +21,13 @@
 @media screen and (max-width: 768px;) {
   .places {
     width: calc(100% - 48px);
-    padding-top: 88px;
+    padding: 88px 0;
   }
 }
 
 @media screen and (max-width: 426px) {
   .places {
     width: 100%;
+    padding: 64px 0;
   }
 }

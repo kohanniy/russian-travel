@@ -6,5 +6,5 @@
 }
 
 .card__link:hover {
-  cursor: pointer;
+  cursor: url(../../../images/cursor.svg), pointer;
 }
