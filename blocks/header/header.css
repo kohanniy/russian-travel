@@ -7,7 +7,6 @@
 @import url(./__label-text/header__label-text.css);
 
 .header {
-  outline: 1px solid red;
   max-width: 1184px;
   width: calc(100% - 96px);
   margin: 0 auto;

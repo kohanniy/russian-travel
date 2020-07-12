@@ -1,5 +1,5 @@
 .lead__title {
-  outline: 1px solid red;
+  text-rendering: optimizeLegibility;
   max-width: 720px;
   font-weight: 900;
   font-size: 96px;

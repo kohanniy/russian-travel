@@ -7,7 +7,6 @@
 @import url(./__fact/intro__fact.css);
 
 .intro {
-  outline: 1px solid red;
   max-width: 984px;
   padding-top: 92px;
   margin-right: 295px;

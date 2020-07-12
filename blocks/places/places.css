@@ -1,5 +1,4 @@
 .places {
-  outline: 1px solid red;
   max-width: 984px;
   padding: 92px 0;
   display: -webkit-box;
@@ -18,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
   .places {
     width: calc(100% - 48px);
     padding: 88px 0;

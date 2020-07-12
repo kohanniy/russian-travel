@@ -1,5 +1,5 @@
 .intro__title {
-  outline: 1px solid red;
+  text-rendering: optimizeLegibility;
   max-width: 690px;
   margin: 0;
   margin-bottom: 40px;

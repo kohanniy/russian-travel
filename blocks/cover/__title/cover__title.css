@@ -1,4 +1,5 @@
 .cover__title  {
+  text-rendering: optimizeLegibility;
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
