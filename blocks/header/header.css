@@ -22,13 +22,13 @@
           align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header {
     width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 375px) {
   .header {
     width: 90%;
     padding-top: 16px;

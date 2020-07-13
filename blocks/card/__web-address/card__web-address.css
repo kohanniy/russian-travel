@@ -12,13 +12,13 @@
           justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .card__web-address {
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 668px) {
+@media (max-width: 668px) {
   .card__web-address {
     display: none;
   }

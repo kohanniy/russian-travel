@@ -1,18 +1,17 @@
 .intro__text {
   max-width: 690px;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 35px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.62;
 }
 
-/* Чтобы абзацы не слиплись, если вдруг в будущем решат добавить еще абзацев */
 .intro__text + .intro__text {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .intro__text {
     width: 100%;
   }

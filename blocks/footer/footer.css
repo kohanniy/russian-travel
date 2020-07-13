@@ -9,8 +9,10 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
+  max-width: 1184px;
   width: calc(100% - 96px);
-  padding: 92px 0 24px;
+  padding-top: 92px;
+  padding-bottom: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,17 +21,23 @@
           justify-content: space-between;
 }
 
-
-
-@media screen and (max-width: 780px) {
+@media (max-width: 780px) {
   .footer {
     width: calc(100% - 48px);
     padding-top: 88px;
-    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 426px) {
+@media (max-width: 674px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 426px) {
   .footer {
     width: 90%;
     padding-top: 64px;

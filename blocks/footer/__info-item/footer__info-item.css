@@ -2,11 +2,7 @@
   margin-right: 18px;
 }
 
-.footer__info-item:last-child {
-  margin: 0;
-}
-
-@media screen and (max-width: 510px) {
+@media (max-width: 510px) {
   .footer__info-item {
     margin-bottom: 32px;
   }

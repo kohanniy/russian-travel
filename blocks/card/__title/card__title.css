@@ -1,5 +1,4 @@
 .card__title {
-  text-rendering: optimizeLegibility;
   width: 100%;
   margin: 0;
   font-weight: 900;
@@ -7,24 +6,23 @@
   line-height: 1.06;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .card__title {
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width: 668px) {
+@media (max-width: 668px) {
   .card__title {
     width: 90%;
     margin-bottom: 32px;
   }
 }
 
-@media screen and (max-width: 426px) {
+@media (max-width: 426px) {
   .card__title {
     font-size: 32px;
     line-height: 1.09;
   }
 }
-

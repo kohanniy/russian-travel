@@ -8,28 +8,28 @@
 
 .intro {
   max-width: 984px;
-  padding-top: 92px;
+  padding-top: 100px;
   margin-right: 295px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .intro {
     max-width: 928px;
     margin-right: 240px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .intro {
     width: calc(100% - 48px);
-    padding-top: 88px;
+    padding-top: 97px;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 426px) {
   .intro {
     width: 90%;
-    padding-top: 64px;
+    padding-top: 71px;
   }
 }

@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 668px) {
+@media (max-width: 668px) {
   .card__description {
     width: 90%;
     margin-top: 32px;

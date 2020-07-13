@@ -10,7 +10,7 @@
 
 .lead {
   max-width: 984px;
-  padding-top: 56px;
+  padding-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,15 +23,21 @@
           align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    padding-top: 48px;
+    padding-top: 56px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead {
     width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .lead {
+    padding-top: 51px;
   }
 }

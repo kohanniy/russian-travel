@@ -1,14 +1,14 @@
 .cover__title  {
-  text-rendering: optimizeLegibility;
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
+  margin: 0;
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 510px) {
+@media (max-width: 510px) {
   .cover__title {
     width: 90%;
     font-size: 32px;

@@ -6,13 +6,13 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__pic-caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .lead__pic-caption {
     margin-left: 16px;
   }

@@ -7,29 +7,29 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
+  max-width: 1184px;
   width: calc(100% - 96px);
   height: 740px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../../images/cover-trains.jpg);
-  position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .cover {
     width: 100%;
     height: 640px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .cover {
     height: 480px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .cover {
     height: 200px;
   }
