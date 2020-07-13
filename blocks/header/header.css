@@ -1,11 +1,5 @@
 @import url(./__logo/header__logo.css);
 
-@import url(./__form/header__form.css);
-
-@import url(./__form-input/header__form-input.css);
-
-@import url(./__label-text/header__label-text.css);
-
 .header {
   max-width: 1184px;
   width: calc(100% - 96px);

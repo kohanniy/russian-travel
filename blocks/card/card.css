@@ -31,8 +31,6 @@
   .card {
     -ms-grid-columns: fit-content(440px) 32px fit-content(456px);
     grid-template-columns: fit-content(440px) fit-content(456px);
-    -ms-grid-rows: auto 48px auto;
-    grid-template-rows: repeat(2, auto);
     grid-gap: 48px 32px;
   }
 }
@@ -41,8 +39,6 @@
   .card {
     -ms-grid-columns: fit-content(340px) 28px fit-content(352px);
     grid-template-columns: fit-content(340px) fit-content(352px);
-    -ms-grid-rows: auto 48px auto;
-    grid-template-rows: repeat(2, auto);
     grid-gap: 48px 28px;
   }
 }

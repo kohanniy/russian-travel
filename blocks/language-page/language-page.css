@@ -1,0 +1,15 @@
+@import url(./__select/language-page__select.css);
+
+@import url(./__link/language-page__link.css);
+
+@import url(./__link/_status/language-page__link_status_active.css);
+
+.language-page {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

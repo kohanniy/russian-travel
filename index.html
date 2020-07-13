@@ -9,16 +9,10 @@
   <body class="page">
     <header class="header">
       <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
-      <form class="header__form">
-        <label class="header__form-label">
-          <input type="radio" name="language-select" value="ru" class="header__form-input" checked>
-          <span class="header__label-text">Ru</span>
-        </label>
-        <label class="header__form-label">
-          <input type="radio" name="language-select" value="en" class="header__form-input">
-          <span class="header__label-text">En</span>
-        </label>
-      </form>
+      <ul class="language-page">
+        <li class="language-page__select"><a href="#" class="language-page__link language-page__link_status_active">Ru</a></li>
+        <li class="language-page__select"><a href="#" class="language-page__link">En</a></li>
+      </ul>
     </header>
     <main class="main-content">
       <section class="lead">
@@ -33,11 +27,11 @@
         <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
         <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__facts">
-          <li class="intro__fact">Часовых поясов 11</li>
-          <li class="intro__fact">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__fact">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__fact">Природных заповедников 105</li>
-          <li class="intro__fact">Аэропортов 241</li>
+          <li class="intro__fact"><span class="intro__span-accent">Часовых поясов</span> 11</li>
+          <li class="intro__fact"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__fact"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__fact"><span class="intro__span-accent">Природных заповедников</span> 105</li>
+          <li class="intro__fact"><span class="intro__span-accent">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -128,18 +122,18 @@
           <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе и&nbsp;iframes&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
         </a>
       </section>
-      <footer class="footer">
-        <nav class="footer__info">
-          <ul class="footer__info-list">
-            <li class="footer__info-item"><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
-            <li class="footer__info-item"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
-            <li class="footer__info-item"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
-            <li class="footer__info-item"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></li>
-            <li class="footer__info-item"><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
-          </ul>
-        </nav>
-        <p class="footer__copyright">&copy;&nbsp;2020 Коханный В.</p>
-      </footer>
     </main>
+    <footer class="footer">
+      <nav class="footer__info">
+        <ul class="footer__info-list">
+          <li class="footer__info-item"><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
+          <li class="footer__info-item"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
+          <li class="footer__info-item"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
+          <li class="footer__info-item"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></li>
+          <li class="footer__info-item"><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy;&nbsp;2020 Коханный В.</p>
+    </footer>
   </body>
 </html>

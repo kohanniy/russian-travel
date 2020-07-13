@@ -3,8 +3,12 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
 .card__link:hover {
   cursor: url(../../../images/cursor.svg), pointer;
+  opacity: 0.8;
 }
