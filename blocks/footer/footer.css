@@ -9,6 +9,7 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
+  margin: 0 auto;
   max-width: 1184px;
   width: calc(100% - 96px);
   padding-top: 92px;
